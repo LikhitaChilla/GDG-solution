@@ -241,16 +241,16 @@ def main():
     st.write("Welcome! Control actions with these hand gestures:")
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.image("up.jpg", width=100)
+        st.image("hand-gesture-recognition-main/up.jpg", width=100)
         st.write("Up (Q)")
     with col2:
-        st.image("down.jpg", width=100)
+        st.image("hand-gesture-recognition-main/down.jpg", width=100)
         st.write("Down (W)")
     with col3:
-        st.image("left.jpg", width=100)
+        st.image("hand-gesture-recognition-main/left.jpg", width=100)
         st.write("Left (E)")
     with col4:
-        st.image("right.jpg", width=100)
+        st.image("hand-gesture-recognition-main/right.jpg", width=100)
         st.write("Right (R)")
     
     # Initialize session state
