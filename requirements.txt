@@ -5,4 +5,3 @@ numpy
 keyboard
 Pillow
 utils
-CvFpsCalc
