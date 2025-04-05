@@ -37,8 +37,8 @@ def load_labels(label_path):
     with open(label_path, encoding='utf-8-sig') as f:
         return [row[0] for row in csv.reader(f)]
 
-keypoint_classifier_labels = load_labels('model/keypoint_classifier/keypoint_classifier_label.csv')
-point_history_classifier_labels = load_labels('model/point_history_classifier/point_history_classifier_label.csv')
+keypoint_classifier_labels = load_labels('hand-gesture-recognition-main/model/keypoint_classifier/keypoint_classifier_label.csv')
+point_history_classifier_labels = load_labels('hand-gesture-recognition-main/model/point_history_classifier/point_history_classifier_label.csv')
 
 # Gesture mapping
 gesture_map = {
