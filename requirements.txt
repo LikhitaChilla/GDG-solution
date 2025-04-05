@@ -6,3 +6,5 @@ keyboard
 Pillow
 utils
 tensorflow
+av
+streamlit-webrtc
